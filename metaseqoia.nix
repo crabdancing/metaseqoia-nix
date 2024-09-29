@@ -35,7 +35,8 @@ in
 
     src = builtins.fetchurl {
       url = "https://metaseq2.sakura.ne.jp/metaseq/Metaseq490a_x64_Installer.exe";
-      sha256 = lib.fakeHash;
+      # sha256 = lib.fakeHash;
+      sha256 = "sha256:0gaizqhs953hp0xvmqsxawvd6a206mqydfi6hrad7504xhj5xmdz";
     };
 
     dontUnpack = true;
