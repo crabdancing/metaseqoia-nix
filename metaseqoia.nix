@@ -111,10 +111,11 @@ in
     desktopIcon = makeDesktopIcon {
       name = "metaseqoia";
 
-      src = fetchurl {
-        url = "https://www.metaseqoia.xyz/_next/image?w=256&q=75&url=%2F_next%2Fstatic%2Fmedia%2Ficon_256x256.09a58ec3.png";
-        sha256 = "sha256-OAmFMeIsrMogwTYiney7rNcKkjbSj/64kGb+6zdbRtA=";
-      };
+      # src = fetchurl {
+      #   url = "https://www.metaseqoia.xyz/_next/image?w=256&q=75&url=%2F_next%2Fstatic%2Fmedia%2Ficon_256x256.09a58ec3.png";
+      #   sha256 = "sha256-OAmFMeIsrMogwTYiney7rNcKkjbSj/64kGb+6zdbRtA=";
+      # };
+      src = ./metasequoia_4_icon_by_linux_rules_db1u0s2.png;
     };
 
     meta = with lib; {
